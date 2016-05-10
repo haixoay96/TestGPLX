@@ -1,0 +1,355 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_light"
+    android:orientation="vertical">
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/icons"
+        android:background="@color/primary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center"
+        android:text="Chuyển nhanh câu hỏi" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="1" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="2" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="3" />
+
+        </TableRow>
+
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="4" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="5" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="6" />
+
+        </TableRow>
+
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="7" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="8" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="9" />
+
+        </TableRow>
+
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="10" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="11" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="12" />
+
+        </TableRow>
+
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="13" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="14" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="15" />
+
+        </TableRow>
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="16" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="17" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="18" />
+
+        </TableRow>
+
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="19" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="20" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="21" />
+
+        </TableRow>
+
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="22" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau23"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="23" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau24"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="24" />
+
+        </TableRow>
+
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau25"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="25" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau26"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="26" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau27"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="27" />
+
+        </TableRow>
+
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau28"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="28" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau29"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="29" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:id="@+id/cau30"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/icons"
+                android:text="30" />
+
+        </TableRow>
+        <Button
+            android:textAllCaps="false"
+            android:textColor="@color/accent"
+            android:layout_margin="1dp"
+            android:background="@color/icons"
+            android:id="@+id/ketthuc"
+            android:text="Kết thúc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </TableLayout>
+
+
+
+</LinearLayout>

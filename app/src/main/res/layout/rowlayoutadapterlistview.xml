@@ -1,0 +1,32 @@
+<RelativeLayout
+    android:background="@color/icons"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textColor="@color/accent"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/cau"
+        android:text="Câu 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textColor="@color/accent"
+        android:layout_below="@+id/cau"
+        android:id="@+id/cautraloi"
+        android:text="Đáp án"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textColor="@color/accent"
+        android:layout_below="@+id/cautraloi"
+        android:id="@+id/dapan"
+        android:text="Đáp án"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

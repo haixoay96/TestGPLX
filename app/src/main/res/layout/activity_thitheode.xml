@@ -1,0 +1,191 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primary"
+        app:title="Danh sách đề thi"
+        app:titleTextColor="@color/icons">
+
+    </android.support.v7.widget.Toolbar>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="2dp"
+        android:background="@color/primary_light"
+        android:stretchColumns="*">
+
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:textColor="@color/accent"
+                android:textSize="@dimen/sizeText"
+                android:textAllCaps="false"
+                android:background="@color/White"
+                android:id="@+id/d1"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/marginButton"
+                android:text="Đề thi số\n1" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:textSize="@dimen/sizeText"
+                android:textAllCaps="false"
+                android:background="@color/White"
+                android:id="@+id/d2"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/marginButton"
+                android:text="Đề thi số\n2" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:textSize="@dimen/sizeText"
+                android:textAllCaps="false"
+                android:id="@+id/d3"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/marginButton"
+                android:background="@color/White"
+                android:text="Đề thi số\n3" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:textColor="@color/accent"
+                android:textSize="@dimen/sizeText"
+                android:textAllCaps="false"
+                android:id="@+id/d4"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/marginButton"
+                android:background="@color/White"
+                android:text="Đề thi số\n4" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:textSize="@dimen/sizeText"
+                android:textAllCaps="false"
+                android:id="@+id/d5"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/marginButton"
+                android:background="@color/White"
+                android:text="Đề thi số\n5" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:textSize="@dimen/sizeText"
+                android:textAllCaps="false"
+                android:id="@+id/d6"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/marginButton"
+                android:background="@color/White"
+                android:text="Đề thi số\n6" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:textColor="@color/accent"
+                android:textSize="@dimen/sizeText"
+                android:textAllCaps="false"
+                android:id="@+id/d7"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/marginButton"
+                android:background="@color/White"
+                android:text="Đề thi số\n7" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:textSize="@dimen/sizeText"
+                android:textAllCaps="false"
+                android:id="@+id/d8"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/marginButton"
+                android:background="@color/White"
+                android:text="Đề thi số\n8" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:textSize="@dimen/sizeText"
+                android:textAllCaps="false"
+                android:id="@+id/d9"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/marginButton"
+                android:background="@color/White"
+                android:text="Đề thi số\n9" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:textColor="@color/accent"
+                android:textSize="@dimen/sizeText"
+                android:textAllCaps="false"
+                android:id="@+id/d10"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/marginButton"
+                android:background="@color/White"
+                android:text="Đề thi số\n10" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:textSize="@dimen/sizeText"
+                android:textAllCaps="false"
+                android:id="@+id/d11"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/marginButton"
+                android:background="@color/White"
+                android:text="Đề thi số\n11" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:textSize="@dimen/sizeText"
+                android:textAllCaps="false"
+                android:id="@+id/d12"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/marginButton"
+                android:background="@color/White"
+                android:text="Đề thi số\n12" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:textColor="@color/accent"
+                android:textSize="@dimen/sizeText"
+                android:textAllCaps="false"
+                android:id="@+id/d13"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/marginButton"
+                android:background="@color/White"
+                android:text="Đề thi số\n13" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:textSize="@dimen/sizeText"
+                android:textAllCaps="false"
+                android:id="@+id/d14"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/marginButton"
+                android:background="@color/White"
+                android:text="Đề thi số\n14" />
+
+            <Button
+                android:textColor="@color/accent"
+                android:textSize="@dimen/sizeText"
+                android:textAllCaps="false"
+                android:id="@+id/d15"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/marginButton"
+                android:background="@color/White"
+                android:text="Đề thi số\n15" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

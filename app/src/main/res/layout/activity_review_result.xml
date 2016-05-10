@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        app:title="Tổng quan"
+        app:titleTextColor="@color/icons"
+        android:background="@color/primary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/review_time"
+                android:gravity="center"
+                android:padding="10dp"
+                android:drawableLeft="@drawable/watch"
+                android:text="00:00"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/review_danhgia"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:text="Không đạt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/review_diem"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:text="0/30"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </TableRow>
+    </TableLayout>
+   <TableLayout
+       android:gravity="center"
+       android:stretchColumns="*"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <TableRow
+           android:paddingLeft="20dp"
+           android:paddingRight="20dp"
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <Button
+               android:id="@+id/review_sum"
+               android:drawableLeft="@drawable/sum"
+               android:layout_weight="1"
+               android:layout_width="0dp"/>
+           <Button
+
+               android:id="@+id/review_true"
+               android:drawableLeft="@drawable/right_mark"
+               android:layout_weight="1"
+               android:layout_width="0dp"/>
+           <Button
+               android:id="@+id/review_false"
+               android:drawableLeft="@drawable/wrong_mark"
+               android:layout_weight="1"
+               android:layout_width="0dp" />
+           <Button
+               android:id="@+id/review_miss"
+               android:drawableLeft="@drawable/exclamation_mark"
+               android:layout_weight="1"
+               android:layout_width="0dp" />
+       </TableRow>
+   </TableLayout>
+   <FrameLayout
+       android:id="@+id/container_fragment"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+      <!-- <fragment
+           android:id="@+id/fragmentreview"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:name="com.example.haixo.testgplx.ReviewFragment"
+           tools:layout="@layout/fragment_review">
+       </fragment>-->
+
+   </FrameLayout>
+
+
+
+</LinearLayout>
